@@ -1,0 +1,7 @@
+.shape {
+    width:100px;
+    height:100px;
+    background-color: salmon;
+    /*左上角 右上角 右下角 左下角半径 顺时针*/
+    border-radius: 10px 8px 6px 4px;
+}

@@ -1,0 +1,27 @@
+.wrapper{
+    margin: 200px;
+    width:200px;
+    height:200px;
+    border:1px dashed red
+}
+
+.shape1{
+    width:200px;
+    height:200px;
+    background: steelblue;
+    transform: scale(0.8);
+}
+
+.shape2{
+    width:200px;
+    height:200px;
+    background: steelblue;
+    transform: scaleX(0.8);
+}
+
+.shape3{
+    width:200px;
+    height:200px;
+    background: steelblue;
+    transform: scaleY(0.8);
+}

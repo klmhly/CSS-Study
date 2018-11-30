@@ -1,0 +1,27 @@
+.wrapper{
+    margin: 300px;
+    width:200px;
+    height:200px;
+    border:1px dashed red
+}
+
+.shape1{
+     width:200px;
+     height:200px;
+     background: steelblue;
+     transform: skew(30deg);
+ }
+
+.shape2{
+    width:200px;
+    height:200px;
+    background: steelblue;
+    transform: skew(0,30deg);
+}
+
+.shape3{
+    width:200px;
+    height:200px;
+    background: steelblue;
+    transform: skew(30deg,30deg);
+}

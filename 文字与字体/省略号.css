@@ -1,0 +1,15 @@
+.word{
+    width:200px;
+    background-color: steelblue;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.shadow{
+    width: 300px;
+
+    background: cadetblue;
+    font:bold 55px '微软雅黑';
+    text-shadow: 2px 2px 3px red
+}
