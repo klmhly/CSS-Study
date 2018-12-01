@@ -1,0 +1,16 @@
+.shape{
+    margin: 150px;
+    width:150px;
+    height:100px;
+    background-color: steelblue;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.shape:hover{
+    width:200px;
+    border-radius: 50% 50%;
+    background-color: rgba(123,17,234,0.2);
+}

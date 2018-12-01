@@ -1,0 +1,27 @@
+.wrapper{
+    margin: 300px;
+    width:200px;
+    height:200px;
+    border:1px dashed red
+}
+
+.shape1{
+     width:200px;
+     height:200px;
+     background: steelblue;
+     transform: translate(50px,50px);
+ }
+
+.shape2{
+    width:200px;
+    height:200px;
+    background: steelblue;
+    transform: translateX(50%);
+}
+
+.shape3{
+    width:200px;
+    height:200px;
+    background: steelblue;
+    transform: translateY(-50%);
+}
