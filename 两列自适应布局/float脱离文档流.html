@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*float让左边的块脱离文档流，然后右边的块margin-left*/
+        .left{
+            width:200px;
+            height:200px;
+            background-color: yellow;
+            float:left;
+        }
+
+        .right{
+            height:400px;
+            background-color: #1b6d85;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+<div class="left">1</div>
+<div class="right">2</div>
+
+</body>
+</html>

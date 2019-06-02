@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            width:800px;
+            height:300px;
+            overflow: hidden;
+        }
+
+        .box{
+            width:2400px;
+            height:300px;
+            /*position: absolute;*/
+            /*left: 0;*/
+            animation-name: focusmap;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+        }
+
+        img{
+            width:800px;
+            height:300px;
+            float: left;
+        }
+        @keyframes image {
+            0%{
+                left:0;
+            }
+            50%{
+                left:-864px;
+            }
+            100%{
+                left:-1728px;
+            }
+        }
+
+        @keyframes focusmap {
+            0%,25%{
+                margin-left: 0;
+            }
+            35%,60% {
+                margin-left: -800px;
+            }
+            70%,100% {
+                margin-left: -1600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="pic/2.jpg" />
+            <img src="pic/1.jpg" />
+            <img src="pic/3.jpg" />
+        </div>
+    </div>
+</body>
+</html>

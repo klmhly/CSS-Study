@@ -1,0 +1,39 @@
+
+<!--浮动定位：左右浮动（脱离文档流，但是其他元素会为其留位置，属于部分无视）
+注意：center块一定要放到最后面，因为他占据位置-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .left,.main,.right{
+            height: 300px;
+        }
+        .left{
+            width:100px;
+            background-color: #1b6d85;
+            float:left;
+        }
+        .right{
+            width: 300px;
+            background-color: yellow;
+            float: right;
+        }
+        .main{
+
+            margin: 0 300px 0 100px;
+            background-color: #00bcd4;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="left">1</div>
+    <div class="right">3</div>
+    <div class="main">2</div>
+</div>
+</body>
+</html>
